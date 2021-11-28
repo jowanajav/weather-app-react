@@ -1,0 +1,43 @@
+.Weather {
+  font-size: 15px;
+}
+
+.Weather .weather {
+  text-transform: capitalize;
+}
+
+.Weather .main-disp {
+  padding-bottom: 1px;
+}
+
+.Weather .main-icon {
+  position: relative;
+  top: -12px;
+  padding: 0px 10px 10px 0;
+  width: 60px;
+}
+
+.Weather .main-temp {
+  position: relative;
+  font-size: 50px;
+  padding: 30px 10px 0 0;
+}
+
+.Weather .celcius {
+  padding-right: 7px;
+}
+
+.Weather .unit {
+  position: relative;
+  top: -24px;
+}
+
+.Weather .unit .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  font-weight: bold;
+}
+
+.Weather .unit .active:hover {
+  text-decoration: none;
+}
