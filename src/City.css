@@ -1,3 +1,7 @@
+.City {
+  margin: 10px;
+}
+
 .City .city {
   font-weight: bold;
   font-size: 30px;

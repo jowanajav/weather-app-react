@@ -6,13 +6,18 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="Weather">
+      <div className="date">
+        <span>10/31 </span>
+        <span>Sunday </span>
+        <span>18:00</span>
+      </div>
       <div className="weather">broken clouds</div>
       <div className="row main-disp">
         <div className="col-5">
           <span>
             <ReactAnimatedWeather
               icon={"CLEAR_DAY"}
-              color={"white"}
+              color={"black"}
               size={40}
               animate={true}
             />
