@@ -67,8 +67,13 @@
   list-style: none;
 }
 
+.Weather canvas {
+  margin-top: 5px;
+}
+
 .Weather .main-temp {
   position: relative;
+  bottom: 5px;
   font-size: 50px;
   padding: 30px 10px 0 0;
   margin-left: 10px;
@@ -76,6 +81,6 @@
 
 .Weather .unit {
   position: relative;
-  top: -24px;
+  top: -30px;
   padding-right: 7px;
 }
