@@ -44,15 +44,20 @@
   padding: 16px;
 }
 
-.Weather h1 {
+.Weather .city {
   font-size: 30px;
   line-height: 29px;
   font-weight: 800;
   text-align: left;
 }
 
+.Weather .country {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
 .Weather ul {
-  margin: 0;
+  margin: 15px 0 0 0;
   padding: 0;
 }
 
@@ -62,14 +67,11 @@
   list-style: none;
 }
 
-.Weather #weatherStat {
-  text-transform: capitalize;
-}
-
 .Weather .main-temp {
   position: relative;
   font-size: 50px;
   padding: 30px 10px 0 0;
+  margin-left: 10px;
 }
 
 .Weather .unit {
