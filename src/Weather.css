@@ -1,11 +1,9 @@
-.Weather {
+/* .Weather {
   font-size: 15px;
   margin: 10px;
 }
 
-.Weather .weather {
-  text-transform: capitalize;
-}
+
 
 .Weather .main-disp {
   padding-bottom: 1px;
@@ -41,4 +39,41 @@
 
 .Weather .unit .active:hover {
   text-decoration: none;
+} */
+.Weather {
+  padding: 16px;
+}
+
+.Weather h1 {
+  font-size: 30px;
+  line-height: 29px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  line-height: 19px;
+  list-style: none;
+}
+
+.Weather #weatherStat {
+  text-transform: capitalize;
+}
+
+.Weather .main-temp {
+  position: relative;
+  font-size: 50px;
+  padding: 30px 10px 0 0;
+}
+
+.Weather .unit {
+  position: relative;
+  top: -24px;
+  padding-right: 7px;
 }
