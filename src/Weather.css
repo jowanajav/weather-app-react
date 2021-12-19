@@ -88,3 +88,13 @@
 .Weather .unit a {
   text-decoration: none;
 }
+
+.Weather .otherTemperature {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.Weather .feelTemp,
+.minTemp {
+  font-size: 14px;
+}
