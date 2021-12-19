@@ -10,7 +10,7 @@ export default function ForecastDate(props) {
     "Friday",
     "Saturday",
   ];
-  let month = props.date.getMonth();
+  let month = props.date.getMonth() + 1;
   let today = props.date.getDate();
   let day = days[props.date.getDay()];
   let hours = props.date.getHours();

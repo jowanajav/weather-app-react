@@ -1,0 +1,20 @@
+.WeatherForecast {
+  text-align: center;
+}
+
+.WeatherForecast .dailyForecastDate {
+  font-size: 12px;
+  text-transform: capitalize;
+  margin-left: 5px;
+}
+
+.WeatherForecast .dailyForecastDescription {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.WeatherForecast .dailyForecastMin {
+  opacity: 0.7;
+  font-size: 12px;
+  margin-left: 5px;
+}
